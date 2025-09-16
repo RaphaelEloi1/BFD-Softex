@@ -1,31 +1,31 @@
 /* 1. Crie um programa que peça um número ao usuário e mostre a tabuada desse 
 número de 1 a 10 usando um for.*/
 
-/*let numero = parseInt(prompt("Digite um número para ver a tabuada:"));
+let numero = parseInt(prompt("Digite um número para ver a tabuada:"));
 console.log(`Tabuada do ${numero}:`);
 for (let i = 1; i <= 10; i++) {
     let resultado = numero * i;
     console.log(`${numero} x ${i} = ${resultado}`);
-}*/
+}
 
 /*2. Crie um programa que simule uma contagem regressiva de 10 até 1 usando 
 while.Quando chegar a 0, deve mostrar "Feliz Ano Novo!". */
 
-/*let contador = 10;
+let contador = 10;
 while (contador >= 1) {
     console.log(contador);
     contador--;
 }
-console.log("Feliz Ano Novo!");*/
+console.log("Feliz Ano Novo!");
 
 /*3. Crie um programa que peça ao usuário uma senha e só termine quando a 
 senha correta (1234) for digitada. Use do...while. */
 
-/*let senha;
+let senha;
 do {
     senha = prompt("Digite a senha (dica: é 1234):");
 } while (senha !== "1234");
-console.log("Senha correta! Acesso permitido.");*/
+console.log("Senha correta! Acesso permitido.");
 
 //1. Declare uma variável global chamada saudacao com o valor "Olá".
 
@@ -56,10 +56,6 @@ console.log(boasVindas("Maria", "Dra"));
 console.log(boasVindas("Maria"));
 
 
-
-
-
-
 /*4. Crie uma função chamada mostrarMensagem que receba uma mensagem e apenas imprima no console
 (sem return).*/
 
@@ -77,19 +73,11 @@ function boasVindas(nome){
 }
 console.log(boasVindas("Maria"));
 
-
-
-
-
-
-
-
-
 /*6. Um desenvolvedor está criando um programa em JavaScript para exibir uma lista de 
 compras no console. Ele deseja que cada item apareça em uma linha, começando 
 com um traço (-).*/
 
-/*let listaDeCompras = ["Maçãs", "Bananas", "Cenouras", "Leite", "Pão"];
+let listaDeCompras = ["Maçãs", "Bananas", "Cenouras", "Leite", "Pão"];
 
 function exibirListaDeCompras(itens) {
     console.log("Lista de Compras:");
@@ -103,6 +91,6 @@ exibirListaDeCompras(listaDeCompras);
 repetição pode ser usada para percorrer o array do primeiro até o último 
 elemento e exibir cada item corretamente?*/
 
-/*for (let i = 0; i < listaDeCompras.length; i++) {
+for (let i = 0; i < listaDeCompras.length; i++) {
     console.log(`- ${listaDeCompras[i]}`);
-}*/
+}
